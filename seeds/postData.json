@@ -1,17 +1,14 @@
 [
   {
-    "name": "Music Near Me",
-    "description": "A mobile app that will send you notifications whenever a concert is playing in your area.",
-    "needed_funding": 5000
+    "title": "Intro into Javascript",
+    "content": "JavaScript is really super cool. You can use it for front-end and back-end."
   },
   {
-    "name": "The Ultimate Tech Quiz",
-    "description": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!",
-    "needed_funding": 10000
+    "title": "HTML Fundamentals",
+    "content": "This article tells you about the DOCTYPE tag as well as the primary tags used for structuring your HTML page."
   },
   {
-    "name": "Roll 'Em Up",
-    "description": "A game for Windows and macOS where players move a ball through a series of increasingly challenging mazes.",
-    "needed_funding": 800
+    "title": "Semantic HTML",
+    "content": "An article combating divitis and other problems that occur from poor page structure. Some of the topics include: (1) Accessibility of your application, (2) Search engine optimization, (3) Code maintainability."
   }
-]
+  ]
