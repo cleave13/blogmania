@@ -1,0 +1,8 @@
+<div class="text-center">
+  <h2>{{title}}</h2>
+  <p>{{content}}</p>
+  <p>Created by {{user.username}}</p>
+  {{#each comments as |comment| }}
+  <p>{{<comment.comment}}</p>
+  {{ /each }}
+</div>

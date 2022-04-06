@@ -4,9 +4,7 @@ const { User } = require('../../models');
 // root/api/users endpoint
 router.post('/', async (req, res) => {
   try {
-    console.log('IT MAKES IT BEFORE THE AWAIT FUNCTION');
     const userData = await User.create(req.body);
-    console.log('IT MAKES IT AFTER THE AWAIT FUNCTION');
     req.session.save(() => {
       req.session.user_id = userData.id;
       req.session.logged_in = true;
