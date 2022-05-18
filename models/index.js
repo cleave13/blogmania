@@ -11,22 +11,22 @@ Post.belongsTo(User, {
   foreignKey: 'created_by_id'
 });
 
+Comment.belongsTo(Post, {
+  foreignKey: 'post_id'
+});
+
 Post.hasMany(Comment, {
   foreignKey: 'post_id',
   onDelete: 'CASCADE'
 });
 
-Comment.belongsTo(Post, {
-  foreignKey: 'post_id'
+Comment.belongsTo(User, {
+  foreignKey: 'created_by_id'
 });
 
 User.hasMany(Comment, {
   foreignKey: 'created_by_id',
   onDelete: 'CASCADE'
-});
-
-Comment.belongsTo(User, {
-  foreignKey: 'created_by_id'
 });
 
 module.exports = { User, Post, Comment };
