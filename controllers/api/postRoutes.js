@@ -2,6 +2,17 @@ const router = require('express').Router();
 const { Post } = require('../../models');
 const withAuth = require('../../utils/auth');
 
+//Starts at /api/posts
+
+// GET a single post
+router.get('/:id', (req, res) => {
+  
+  // Find a single post by its primary key (post_id)
+  Post.findByPk(req.params.id).then((postData) => {
+    res.json(postData);
+    console.log('Made it here');
+  });
+});
 
 router.post('/', withAuth, async (req, res) => {
   try {
