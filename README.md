@@ -29,7 +29,7 @@ Users can use this application to view blog posts about various javascript conce
 
 In addition users can click into a single post to view the related comments.
 
-![homepage](../blogmania/public/images/post.png)
+![post](../blogmania/public/images/post.png)
 
 ## License
 
