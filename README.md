@@ -19,7 +19,7 @@ This application represents my first attempt at application development using th
 
 ## Installation
 
-There is no installation required for the application. You can access the live application at {heroku link}.
+There is no installation required for the application. You can access the live application at https://aqueous-crag-90801.herokuapp.com/.
 
 ## Usage
 
