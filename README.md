@@ -25,11 +25,11 @@ There is no installation required for the application. You can access the live a
 
 Users can use this application to view blog posts about various javascript concepts and leave their comments. Users must be logged in to perform certain functions and when they are, the navigation links change from "login" to "logout".
 
-![homepage](../blogmania/public/images/blogmania.png)
+![homepage](./public/images/blogmania.png)
 
 In addition users can click into a single post to view the related comments.
 
-![post](../blogmania/public/images/post.png)
+![post](./public/images/post.png)
 
 ## License
 
